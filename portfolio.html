@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Project</title>
+
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="shortcut icon" href="./assets/.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <img src="./assets/logo.svg" alt="" class="logo img" />
+            <h3 class="logo-text">cubix coder</h3>
+        </div>
+        <nav>
+            <div class="nav-container">
+                <div class="openMenu"><i class="fa fa-bars"></i></div>
+                <ul class="mainMenu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">services</a></li>
+                    <li><a href="#portfolio" class="nav-link">my work</a></li>
+                    <li><a href="#blogs" class="nav-link">my blogs</a></li>
+                    <li><a href="#testimonials" class="nav-link">testimonials</a></li>
+                    <li><a href="#contact" class="nav-link">contact</a></li>
+                    <li><a href="#hireme" class="nav-link active-nl">hire me</a></li>
+                    <div class="closeMenu"><i class="fa fa-times"></i></div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home-section" id="home">
+            <div class="overlay">
+                <img src="./assets/shapes/ " alt="b" class="shapes1" />
+                <img src="./assets/shapes/ " alt="b" class="shapes2" />
+                <img src="./assets/shapes/ " alt="b" class="shapes3" />
+                <img src="./assets/shapes/ " alt="b" class="shapes4" />
+                <img src="./assets/shapes/ " alt="b" class="shapes5" />
+                <img src="./assets/shapes/ " alt="b" class="shapes6" />
+                <img src="./assets/shapes/ " alt="b" class="shapes7" />
+                <!-- <img src="./assets/cool-bg.png" class="letters" alt=""> -->
+            </div>
+            <div class="home-container">
+                <div class="column1">
+                    <div class="home-description">
+                        <h3 class="description-title">
+                            Hello, I'm <strong>John Diggle</strong>
+                        </h3>
+                        <p class="short-descripiton">
+                            I am a full stack web developer based off Houston, Texas currently studying in college but have been in the market for a couple of years and quite reputable in the sector.
+                        </p>
+                        <button class="btn">read more</button>
+                    </div>
+                </div>
+                <div class="developer-img column2">
+                    <img class="home-img img" src="./assets/home.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <section class="services-section" id="services">
+            <div class="section-header">
+                <h3 class="title" data-title="What I do">services</h3>
+                <p>Lorem ipsum</p>
+            </div>
+
+            <div class="services-bg">
+
+                <div class="section-main cards">
+
+                    <div class="card">
+                        <div class="card-wrapper">
+                            <div class="card-content" data-cardtitle="Data .A.">
+                                <img src="./assets/card1__data-analysis.png" class="card-img img" alt="" />
+                                <h3 class="card-title">Data Analysis</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit consectetur adipisicing elit. Nam est subscriot itaque
+                                </p>
+                                <a href="#" class="btn small">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-wrapper">
+                            <div class="card-content" data-cardtitle="Web Dev">
+                                <img src="./assets/card2__web-development.png" class="card-img img" alt="" />
+                                <h3 class="card-title">Web Development</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit consectetur adipisicing elit. Nam est subscriot itaque
+                                </p>
+                                <a href="#" class="btn small">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-wrapper">
+                            <div class="card-content" data-cardtitle="App Dev">
+                                <img src="./assets/card3__app-development.png" class="card-img img" alt="" />
+                                <h3 class="card-title">App Development</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit consectetur adipisicing elit. Nam est subscriot itaque
+                                </p>
+                                <a href="#" class="btn small">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section" id="portfolio">
+            <div class="section-header portfolio-header">
+                <h3 class="title" data-title="My Works">Portfolio</h3>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="overlay-bg2"></div>
+            <div class="section-body">
+                <div class="filter">
+                    <button class="filter-button active-fl">All</button>
+                    <button class="filter-button" data-filter=".fe">Front-end</button>
+                    <button class="filter-button" data-filter=".be">Back-end</button>
+                    <button class="filter-button" data-filter=".ad">App Dev</button>
+                    <button class="filter-button" data-filter=".da">Data Analysis</button>
+                </div>
+
+                <div class="grid">
+
+                    <div class="grid-item fe">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item be">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item ad be">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item ad">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item fe">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item da">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item fe">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item da ad">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-item ad be">
+                        <div class="gallery-img">
+                            <img src="./assets/card1__data-analysis.png" alt="" class="img">
+                            <div class="gi-overlay">
+                                <div class="plus"></div>
+                                <div class="content">
+                                    <h4 class="content-title">Lorem Ipsum</h4>
+                                    <p class="content-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="more-folio">
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+        </section>
+        <section class="records">
+            <div class="rcds-container">
+
+                <div class="wrap">
+                    <div class="record-circle active-rcds">
+                        <h4 class="number" data-num="150">0</h4>
+                        <h5 class="sub-title">Projects</h5>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h4 class="number" data-num="234">0</h4>
+                        <h5 class="sub-title">Happy clients</h5>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h4 class="number" data-num="976">0</h4>
+                        <h5 class="sub-title">Work hours</h5>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h4 class="number" data-num="195">0</h4>
+                        <h5 class="sub-title">Awards</h5>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="my-blogs" id="blogs">
+            <div class="section-header testimonials-header">
+                <h3 class="title" data-title="My Articles">blog posts</h3>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="testimonials-body">
+                <div class="bd-example">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/test.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/test.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/test.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <div class="section-header testimonials-header">
+                <h3 class="title" data-title="reviews">Testimonials</h3>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="card-slider">
+
+                <input type="radio" id="1" name="sld">
+                <label for="1">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+
+                <input type="radio" id="2" name="sld">
+                <label for="2">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+                <input type="radio" id="3" name="sld">
+                <label for="3">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+                <input type="radio" id="4" name="sld" checked>
+                <label for="4">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+                <input type="radio" id="5" name="sld">
+                <label for="5">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+                <input type="radio" id="6" name="sld">
+                <label for="6">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+                <input type="radio" id="7" name="sld">
+                <label for="7">
+                    <div class="lb-con">
+                    <img src="" alt="testimonial-photo">
+                    <p class="txtp">his work was very exceptional 
+                        with quick submission and adequate work donw</p>
+                </div>
+            </label>
+            </div>
+        </section>
+        <section class="contact-me" id="contact">
+            <div class="section-header contact-me-header">
+                <h3 class="title" data-title="talk to me">Contact Me</h3>
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="contact">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h3 class="title">Get in touch</h3>
+                    <p class="text">
+                        Lorem ipsum dolor sit consectetur adipisicing elit. Nam est subscriot itaque
+                    </p>
+                    <div class="information-wrap">
+
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-paper-plane"> </i>
+                            </div>
+                            <p class="info-text">lorem@ipsum.com</p>
+                        </div>
+
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-all"></i>
+                            </div>
+                            <p class="info-text">42 Sling Avenue, NI 30404</p>
+                        </div>
+
+                        <div class="information">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <p class="info-text">123-456-789</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="title">Contact me</h3>
+                    <div class="row">
+                        <input type="text" class="contact-input" placeholder="First Name">
+                        <input type="text" class="contact-input" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" class="contact-input" placeholder="Phone">
+                        <input type="text" class="contact-input" placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <textarea
+                        name="message"
+                        class="contact-input textarea"
+                        placeholder="Message"
+                        ></textarea>
+                    </div>
+                    <a href="#" class="btn">Send</a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="hireme" id="hireme">
+            <h3 class="title" data-title="hire me">Let's talk about a project</h3>
+            <p class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi 
+                quisquam distinctio cumque exercitationem illum qui laudantium 
+                molestiae earum rem, itaque fugiat repellendus dignissimos ex 
+                temporibus velit tempore consequuntur voluptate sapiente!
+            </p>
+            <a href="#" class="hireme-btn btn">Hire Me</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="grid-4">
+            <div class="grid-4-col footer-about">
+                <h3 class="title-sm">About</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nulla reprehenderit eos ipsum cum ratione facere eveniet quis nam.
+                </p>
+            </div>
+
+            <div class="grid-4-col footer-links">
+                <h3 class="title-sm">Links</h3>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="grid-4-col footer-links">
+                <h3 class="title-sm">Services</h3>
+                <ul>
+                    <li><a href="#">Front-End Design</a></li>
+                    <li><a href="#">Back-End Design</a></li>
+                    <li><a href="#">Data Analysis</a></li>
+                    <li><a href="#">App Development</a></li>
+                </ul>
+            </div>
+            <div class="grid-4-col footer-newsletter">
+                <h3 class="title-sm">Join the Dev Community</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="footer-input-wrap">
+                    <input type="email" class="footer-input" placeholder="Email">
+                    <a href="#" class="input-arrow">
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="followme-wrap">
+                <div class="followme">
+                    <h3>My Socials</h3>
+                    <span class="footer-line"></span>
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="back-btn-wrap">
+                    <a href="#" class="back-btn">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="./JS/isotope.pkgd.min.js"></script>
+    <script src="./JS/app.js"></script>
+
+</body>
+</html>
